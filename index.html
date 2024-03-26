@@ -20,7 +20,7 @@
 
 <div id="main">
 <h1>Nishikaa Ramsay</h1>
-<p><img src="Nishikaa Headshot TEDx.jpg" width="200" height="300">
+<p><img src="Nishikaa Headshot TEDx.jpg" alt ="Nishikaa Ramsay Headshot" width="200" height="300">
   Hi!<br><br>
   My Name is Nishikaa, a third year Business Technology Management Student 
   at Toronto Metropolitan University persuing a Minor in Marketing.<br><br>So far, in my university career, I
@@ -30,7 +30,15 @@
   Currently, I am a Graphic Design Director at TEDxTorontoMetU and I recently
   finished a work term with Fit for Business as Communications
   and Content Creator. These positions have given me experience in Content Creation and Graphic Design.
-
   </p>
+  <h6>Text Size:</h6>
+<select onchange="changeFontSize(this.value)">
+  <option value="medium">Medium</option>
+  <option value="large">Large</option>
+  <option value="x-large">Extra-Large</option>
+</select>
+<br> <br>
+<h6>Dark Mode</h6>
+<button id="colorblind-toggle" onclick="toggleColorblindMode()">Dark Mode</button>
 </div>
 </body>
